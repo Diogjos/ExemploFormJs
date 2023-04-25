@@ -1,0 +1,12 @@
+*{
+    font-family: 'Franklin Gothic Medium';
+}
+body{
+    background-image: url(/pokedex.png);
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}

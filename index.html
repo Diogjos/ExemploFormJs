@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <h1 style="color: royalblue;font-size: 5ch;text-align: center;margin-top: 70px">Tela de Cadastro</h1>
+        <label for="nome"></label>
+        <input type="text" id="nome" placeholder="Diga seu nome"
+            style="width: 320px;height: 40px;text-align: center; font-size: 3ch;border-color: royalblue steelblue dodgerblue slategray;border-radius: 10px;">
+        <p id="alerta_nome"></p>
+        <label for="senha"></label>
+        <input type="password" id="senha" placeholder="Diga sua senha" maxlength="10"
+            style="width: 320px;height: 40px;text-align: center; font-size: 3ch;border-color: royalblue steelblue dodgerblue slategray;border-radius: 10px;">
+        <p id="alerta_senha"></p>
+        <input type="text" id="cpf" placeholder="Diga seu cpf" maxlength="11"
+            style="width: 320px;height: 40px;text-align: center; font-size: 3ch;border-color: royalblue steelblue dodgerblue slategray;border-radius: 10px;">
+        <input type="email" id="email" placeholder="Diga seu email"
+            style="width: 320px;height: 40px;text-align: center; font-size: 3ch;border-color: royalblue steelblue dodgerblue slategray;border-radius: 10px;margin-top: 20px;">
+        <input type="date" id="data" 
+            style="width: 320px;height: 40px;text-align: center; font-size: 3ch;border-color: royalblue steelblue dodgerblue slategray;border-radius: 10px;margin-top: 20px;">
+        <button id="cadastrar" class="qualquer" onclick="cadastrar()"
+            style="width: 320px;height: 45px;font-size: 3ch;margin: 10px;border-color: royalblue steelblue dodgerblue slategray;border-radius: 10px;color: royalblue;margin-top: 20px;">Cadastrar</button>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>

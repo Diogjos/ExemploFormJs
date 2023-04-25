@@ -1,0 +1,62 @@
+*{
+    font-family: 'Franklin Gothic Medium';
+}
+body{
+    background-image: url(/oakcenter.jpg);
+    
+}
+h1{
+    text-align: center;
+
+}
+.menu-item-container{
+    position: relative;
+    display: flex;
+    top: 130px;;
+    left:700px;
+    margin: 10px;
+}
+.sub-item-container{
+    width: 200px;
+    height: 0;
+    overflow: hidden;
+    position: absolute;
+    transition: height .2s;
+    
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-around; 
+}
+a{
+    transition: text-decoration 0.2s, transform 0.2s;
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+    transform: scale(1.2);
+}
+.menu-item-container:hover .sub-item-container{
+    height: 150px;   
+}
+main{
+    display: flex;
+    flex-direction: row;
+}
+#app2{
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    display: flex; 
+    position: relative;
+    top: 150px;
+    left: 500px;
+}
+.img-container{
+    transition: transform 1s;
+}
+img{
+    width: 150px;
+    height: 150px;
+}
