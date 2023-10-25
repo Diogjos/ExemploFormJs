@@ -1,3 +1,7 @@
-# Formulário-Projeto-storage
+# Formulario
 
-Exemplo de formulario usando principios de storage 
+Formulario de cadastro e login
+
+Feito em Java Script
+
+para exercutaré preciso clonar o repositório
